@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    background-color: aqua;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#discount {
+    align-self: center;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details>div,
+.price>div {
+    display: flex;
+    flex-direction: column;
+}
