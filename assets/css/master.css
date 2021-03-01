@@ -9,20 +9,24 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
 }
 
 .container {
     width: 80%;
     height: 80%;
-    background-color: aqua;
+    background-color: silver;
     padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-radius: 15px;
 }
 
 #discount {
     align-self: center;
+    font-size: 30px;
+    color: red;
 }
 
 .details {
@@ -39,4 +43,10 @@ body {
 .price>div {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+span:first-child {
+    font-size: 30px;
 }
